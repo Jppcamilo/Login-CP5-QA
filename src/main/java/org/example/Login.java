@@ -16,7 +16,7 @@ public class Login {
     private static final String BASE_URL = "https://www.saucedemo.com/";
     private static final String USUARIO_VALIDO = "standard_user";
     private static final String SENHA_VALIDA = "secret_sauce";
-    private static final String USUARIO_BLOQUEADO = "locked_out_user"; // conta de teste do saucedemo p/ simular 403
+    private static final String USUARIO_BLOQUEADO = "locked_out_user";
     private static final String SENHA_INVALIDA = "senha_incorreta_123";
 
     private static final By CAMPO_USUARIO = By.id("user-name");
